@@ -1,17 +1,3 @@
-nilai = int(input("masukkan nilai: "))
-
-if nilai >= 90:
-    print ("exellent")
-elif nilai >= 80:
-    print("very good")
-elif nilai >= 70:
-    print("good")        
-elif nilai >= 60:
-    print("avrage") 
-else:
-    print(" so poor")
-
-
 ##2
 num1 = int(input("Masukkan angka pertama: "))
 num2 = int(input("Masukkan angka kedua: "))
