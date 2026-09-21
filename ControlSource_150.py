@@ -25,3 +25,13 @@ elif num2 >= num1 and num2 >= num3:
 else:
     terbesar = num3
 print(f"Angka terbesar di antara {num1}, {num2}, dan {num3} adalah: {terbesar}")
+
+###3
+n = int(input("Masukkan nilai n untuk Fibonacci: "))
+a, b = 0, 1
+
+print("Deret Fibonacci:")
+while a <= n:
+    print(a, end=" ")
+    a, b = b, a + b
+print()
