@@ -43,3 +43,11 @@ print("Angka ganjil:")
 for i in range(1, n + 1, 2):
     print(i, end=" ")
 print()
+
+###5
+n = int(input("Masukkan n (contoh 5): "))
+
+for i in range(1, n + 1):
+    for j in range(i):
+        print(i, end="")
+    print()
